@@ -16,6 +16,7 @@ def download_html(name, response):
         f.write(response.content)
 
 
+
 class Counter(object):
     size = 0
     total = 0
